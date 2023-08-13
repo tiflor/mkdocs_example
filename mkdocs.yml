@@ -20,6 +20,9 @@ nav:
 
 theme:
   name: material
+  features:
+    - content.action.edit
+    - navigation.footer
 
 markdown_extensions:
   - tables
