@@ -1,0 +1,15 @@
+site_name: My Docs
+site_url: https://GITHUB_USERNAME.github.io
+repo_url: https://github.com/tiflor/mkdocs_example/
+site_author: you
+site_description: a short description of your website
+
+nav:
+  - About: index.md
+
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
