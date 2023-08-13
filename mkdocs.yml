@@ -1,15 +1,25 @@
 site_name: My Docs
-site_url: https://GITHUB_USERNAME.github.io
+site_url: https://tiflor.github.io/mkdocs_example/
 repo_url: https://github.com/tiflor/mkdocs_example/
+edit_uri: blob/main/docs/
+
 site_author: you
 site_description: a short description of your website
 
 nav:
   - About: index.md
+  - example: 
+    - example/table.md
 
+
+# theme:
+#   name: readthedocs
+#   highlightjs: true
+#   hljs_languages:
+#     - yaml
 
 theme:
-  name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
+  name: material
+
+markdown_extensions:
+  - tables
